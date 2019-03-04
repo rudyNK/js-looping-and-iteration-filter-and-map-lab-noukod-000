@@ -16,4 +16,4 @@ function exactMatch(drivers, params) {
 function exactMatchToList(drivers, params) {
   const k = Object.keys(params)
   return drivers.filter(d => d[k] === params[k] ).map(d => d.name)
-}  
+}
